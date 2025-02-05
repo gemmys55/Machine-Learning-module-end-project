@@ -1,5 +1,5 @@
 3.Identify the best performing model and justify why it is the best.
-
+----------------------------------------------
 To identify the best-performing model, you can compare the evaluation metrics for each model: MSE (Mean Squared Error), R² (R-squared), and MAE (Mean Absolute Error). Here's how you can analyze the models:
 Key Evaluation Metrics:
 MSE (Mean Squared Error): Measures the average squared difference between actual and predicted values. Lower values are better.
@@ -37,10 +37,10 @@ Lowest MAE (6800.12): The absolute error is smaller compared to other models, wh
 Conclusion:
 Random Forest Regressor is the best choice because it minimizes the errors (both in terms of squared and absolute error) and explains the most variance in the data. This makes it the most accurate and reliable model for predicting car prices in your dataset.
 
-Feature Importance Analysis (2 marks) Identify the significant variables affecting car prices (feature selection)
+4.Feature Importance Analysis (2 marks) Identify the significant variables affecting car prices (feature selection)
+-------------------------------------------------------
 
-
-4.Feature Importance Analysis
+Feature Importance Analysis
 To identify the most significant variables affecting car prices, we can analyze feature importance using tree-based models like Random Forest Regressor and Gradient Boosting Regressor, as they provide built-in feature importance scores.
 
 Interpreting Feature Importance
